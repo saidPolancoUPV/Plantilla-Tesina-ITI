@@ -17,7 +17,7 @@ Plantilla desarrollada y puesta a disposición de la comunidad estudiantil de la
 
 ```
 main.tex                         ensambla el documento (activa/desactiva secciones según el tipo de proyecto)
-configuracion/datos.tex          datos del alumno, tipo de proyecto y estilo de citas   <- se edita
+configuracion/datos.tex          datos del alumno, nivel, tipo de proyecto y citas     <- se edita
 configuracion/preambulo.tex      paquetes, estilos y entorno «guia»                     <- no se edita
 institucional/                   portada, cartas y evaluación (se generan con los datos)
 secciones/00_preliminares.tex    agradecimientos, resumen, summary              [Revisión 4]

@@ -3,7 +3,7 @@
 % (además de escribir tus secciones en la carpeta secciones/)
 % Cambia solo lo que está entre llaves { } a la derecha de cada \newcommand.
 % El sistema de revisión lee estos datos (título, alumno, tipo de proyecto): no cambies los nombres
-% de los comandos (\NombreAlumno, \NombreProyecto, \TipoProyecto, ...).
+% de los comandos (\NombreAlumno, \NombreProyecto, \TipoProyecto, \NivelEstudios, ...).
 % =====================================================================================
 
 % ---------- Tipo de proyecto (OBLIGATORIO) ------------------------------------------
@@ -12,6 +12,15 @@
 %   investigacion  -> algoritmo, modelo de aprendizaje de máquina u otro trabajo de investigación
 % Según el tipo, la Revisión 2 y la 3 piden secciones distintas (ver GUIA_ALUMNO.md).
 \newcommand{\TipoProyecto}{sistema}
+
+% ---------- Nivel de estudios (OBLIGATORIO) ------------------------------------------
+% Escribe exactamente  ITIID   o   TSU   (tu director te dice cuál es el tuyo; debe coincidir con tu registro)
+%   ITIID -> Ingeniería en Tecnologías de la Información e Innovación Digital
+%   TSU   -> Técnico Superior en Desarrollo de Software Multiplataforma
+% La portada y las cartas escriben el nombre del programa a partir de este dato: NO hay un dato aparte
+% para la carrera y no debes escribirla a mano en ningún otro lugar.
+% ATENCIÓN: la plantilla viene con  TSU.  Si eres de ingeniería, cámbialo a  ITIID  (la portada debe decir tu programa).
+\newcommand{\NivelEstudios}{TSU}
 
 % ---------- Estilo de citas y referencias -------------------------------------------
 % ieee (por defecto) o apa. Pregunta a tu director cuál debes usar.
@@ -25,7 +34,6 @@
 \newcommand{\OA}{o}
 
 % ---------- Programa y proyecto ------------------------------------------------------
-\newcommand{\ncarrera}{Ingeniería en Tecnologías de la Información}
 \newcommand{\NombreProyecto}{Título completo del proyecto de estadía}
 % Título para el encabezado de cada página. Usa \\ para partirlo en líneas (máximo 3 líneas).
 \newcommand{\NombreProyectoheader}{Título completo del proyecto \\de estadía}

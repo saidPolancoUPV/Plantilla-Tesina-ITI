@@ -12,6 +12,9 @@ secciones están completas y cumple con el formato. **La decisión final siempre
    - `sistema` → página web, sistema web, API, sistema de escritorio o app móvil.
    - `investigacion` → algoritmo, modelo de aprendizaje de máquina u otra investigación.
    - Y el estilo de citas `\EstiloCitas`: `ieee` (por defecto) o `apa`, según indique tu director.
+   - Y tu nivel de estudios `\NivelEstudios`: `ITIID` (Ingeniería en Tecnologías de la Información e Innovación Digital) o `TSU`
+     (Técnico Superior en Desarrollo de Software Multiplataforma). La plantilla viene con `TSU`: si eres de ingeniería cámbialo a `ITIID`. Tu director te indica cuál es el tuyo y debe coincidir con tu registro:
+     la portada y las cartas escriben el nombre del programa a partir de este dato (ya no existe `\ncarrera` en `datos.tex`).
 4. Si tu proyecto es de **investigación**, en `main.tex` activa `04_estado_del_arte` y `06_diseno_experimentos` (y comenta
    `06_desarrollo_sistema`). Las instrucciones están como comentarios en `main.tex`.
 5. Compila: `latexmk -pdf main.tex` (o el botón de compilar de tu editor). La bibliografía usa **biber**.
